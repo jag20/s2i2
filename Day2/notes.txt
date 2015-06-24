@@ -1,0 +1,70 @@
+MORNING
+
+GIT:
+
+-make folder called 'git' in home to manage all version control
+-don't have git repos within git repos
+-make 'src' directory inside project file.
+-have a readme in every file that documents what's going on.
+-'get init' in desired git folder to make git repository
+-'.git' folder is the one that stores the repository
+-'git status' tells you stuff
+-'git add' to add file to staging area and start tracking
+-'git commit' to actually do the commit (global save). Have to add a message to your future self
+-make file .gitkeep in any empty folder, because empty folder won't be tracked.
+-'git diff' shows what's been changed before 'git add'. Compares last commit to what you have now
+-Try to make functions as small as possible so you can re-use them.
+-'git log' to see log of changes
+-'git diff Head~1' etc. to compare head with however many commits back.
+-'git checkout filenumber' to get to other commit. or 'git checkout master' to get back to master. see git checkout flags, e.g. --decorate
+-'touch .gitignore' in same directory as .git, and copy paths to unwanted files to .gitignore to ignore files, such as .o files, that you have no interest in tracking.
+-'git reset hard' before adding to staging area to get everything back
+-zenodo.org, doi tag for git repository 
+-'git remote -v' to see remotes we're working with
+-checkout Markdown for notes in class. Abbreviated html to facilitate formatting
+Branching:
+
+
+
+AFTERNOON
+
+PYTHON REGULAR EXPRESSIONS:
+-used for pattern matching. just a pattern for specifying what a string should look like. Compare to strings one at a time to find a match.
+-import looks in normal system paths and cwd.
+-'import re' to get regular expressions
+-r"", implies string literal. Always use this
+-make pattern: var = re.compile("string")
+- var.search("") is almost always what you want
+-useful to set to boolean: bool(var.search("string"))
+-can use star as wildcar in regex
+-? = 0 or 1, + 1 or more, * (applies to previous character) 0 or more
+- . is a special character, which means any character
+- set search equal t variable instead of bool, such as result.groups(), which returns tuple (immutable list).
+
+
+SOFTWARE CHECKING:
+-unit test. Test pieces of code that do something.
+-part of testing code is learning to write code in pieces that you can test.
+-First step in that is refactoring the code to make it testable. Restructure the code without changing what it does to make it easier to test/reuse. Usually do this with functions.
+-see nose tests. For running tests,  have test file using 'test_' in file name
+- list all possible tests first
+-FUNIT for Fortran(use assert almost equals instead of exactly equals)
+-CPPUNIT for Fortran
+
+WRAPUP:
+1)Automate
+2)Test. What is output supposed to be and how to I know.
+3)Version control
+
+
+CONTACT INFO:
+Tommy (contact for internship. We're infinitely employable)
+richardtguy84@gmail.com
+@richardtguy84 
+job info: working on research/data analysis. Need to know a little about statistics. Need to see that you're self-directed and have solve real-world, messy problems.
+
+Daniel
+chend@vbi.vt.edu
+@chendaniely
+
+-join software carpentry as teacher/mentor

@@ -1,0 +1,46 @@
+MORNING SESSION
+
+SC GOALS:
+1) How do you know you got the right answer
+2) How do you reproduce/let someone else reproduce that answer
+3) How do you automate
+
+All material is at software-carpentry.org
+
+Class specific website: http://guyrt.github.io/2015-06-21-s2i2/
+
+THE SHELL:
+'ctrl r' to search through previous commands
+'ctrl a' jumps to head of line
+'ctrl e' jumps to end of line
+'wc' word count
+'find'
+chmod: r = 4, w = 2, x = 1; so chmod 764 gives rwx to owner, rw to group, r to all. 
+'ps aux' to list everything running on computer, get pid number
+'kill -9 pidnumber'
+
+-Bash best for making sure file is okay, but drop into Python if you really need to take pieces of a file, since you can treat it as a data structure
+-Bash scripts really good for gluing together the different pieces of your analysis pipeline
+-'Data Science in the Command Line'
+
+BLUERIDGE CLUSTER:
+host: hpc06@blueridge2.arc.vt.edu
+login: hpc06 
+password: hokies14
+
+Notes:
+Best to make datasets read only. Do dataset modification only in a file.
+program htop to see number of cores and how active they are (top if htop not avail)
+
+AFTERNOON SESSION
+
+-Python is very good for things Fortran is bad at.
+-Python is easy to read and easy to write.
+-Using Python not for scientific calculation, but for post-calculation analysis. 
+-Good for trying ideas
+-'tab' as in terminal, to get info on a variable.
+-You're allowed to look up info on how to code at any time, even if you get paid to code
+-
+
+
+
